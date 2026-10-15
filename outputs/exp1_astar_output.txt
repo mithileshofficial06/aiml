@@ -1,0 +1,8 @@
+Visiting A  g = 0  h = 5  f = 5
+Visiting B  g = 1  h = 4  f = 5
+Visiting E  g = 2  h = 3  f = 5
+Visiting D  g = 4  h = 2  f = 6
+Visiting G  g = 6  h = 0  f = 6
+
+Shortest Path: A -> B -> D -> G
+Total Cost: 6

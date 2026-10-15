@@ -1,0 +1,26 @@
+Mounted at /content/drive
+Sample Data:
+   longitude  latitude  ...  median_house_value  ocean_proximity
+0    -122.23     37.88  ...            452600.0         NEAR BAY
+1    -122.22     37.86  ...            358500.0         NEAR BAY
+2    -122.24     37.85  ...            352100.0         NEAR BAY
+3    -122.25     37.85  ...            341300.0         NEAR BAY
+4    -122.25     37.85  ...            342200.0         NEAR BAY
+
+[5 rows x 10 columns]
+
+Simple Regression R2 Score  : 0.47
+Multiple Regression R2 Score: 0.64
+
+Actual vs Predicted (Multiple Regression):
+     Actual  Predicted
+0  245800.0   197058.0
+1  137900.0   157509.0
+2  218200.0   202099.0
+3  220800.0   173502.0
+4  170500.0   213795.0
+5   75000.0   108005.0
+6  269400.0   284796.0
+7  228900.0   249129.0
+8  500001.0   391339.0
+9   80800.0    49301.0

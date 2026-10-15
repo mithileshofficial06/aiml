@@ -1,0 +1,49 @@
+  |   |  
+--+---+--
+  |   |  
+--+---+--
+  |   |  
+
+Enter position (1-9): 5
+Computer chose position 1
+O |   |  
+--+---+--
+  | X |  
+--+---+--
+  |   |  
+
+Enter position (1-9): 1
+Invalid position! Try again.
+
+O |   |  
+--+---+--
+  | X |  
+--+---+--
+  |   |  
+
+Enter position (1-9): 9
+Computer chose position 3
+O |   | O
+--+---+--
+  | X |  
+--+---+--
+  |   | X
+
+Enter position (1-9): abc
+Invalid position! Try again.
+
+O |   | O
+--+---+--
+  | X |  
+--+---+--
+  |   | X
+
+Enter position (1-9): 8
+Computer chose position 2
+O | O | O
+--+---+--
+  | X |  
+--+---+--
+  | X | X
+
+Computer wins!

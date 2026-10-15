@@ -1,0 +1,47 @@
+Mounted at /content/drive
+Sample Data:
+   fixed acidity  volatile acidity  citric acid  ...  sulphates  alcohol  quality
+0            7.4              0.70         0.00  ...       0.56      9.4        5
+1            7.8              0.88         0.00  ...       0.68      9.8        5
+2            7.8              0.76         0.04  ...       0.65      9.8        5
+3           11.2              0.28         0.56  ...       0.58      9.8        6
+4            7.4              0.70         0.00  ...       0.56      9.4        5
+
+[5 rows x 12 columns]
+
+Accuracy: 60.31 %
+
+Confusion Matrix:
+[[ 0  0  1  0  0  0]
+ [ 0  0  8  2  0  0]
+ [ 0  0 99 31  0  0]
+ [ 0  0 43 85  4  0]
+ [ 0  0  1 32  9  0]
+ [ 0  0  0  2  3  0]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00        10
+           5       0.65      0.76      0.70       130
+           6       0.56      0.64      0.60       132
+           7       0.56      0.21      0.31        42
+           8       0.00      0.00      0.00         5
+
+    accuracy                           0.60       320
+   macro avg       0.30      0.27      0.27       320
+weighted avg       0.57      0.60      0.57       320
+
+Actual vs Predicted:
+   Actual  Predicted
+0       6          5
+1       5          5
+2       6          6
+3       5          5
+4       6          6
+5       5          5
+6       5          5
+7       5          5
+8       5          6
+9       6          6
